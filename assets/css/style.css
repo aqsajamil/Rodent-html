@@ -34,3 +34,19 @@
     font-family: 'Bungee', sans-serif;
     margin-bottom: 1rem;
   }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px; /* Add margin to the top of social links */
+  }
+
+  .social-links a {
+    font-size: 24px;
+    margin: 0 10px; /* Adjust margin to add space between icons */
+    color: white;
+  }
+
+  .social-links a i {
+    color: white;
+  }
