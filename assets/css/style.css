@@ -43,12 +43,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 10px; /* Add margin to the top of social links */
+    margin-top: 10px; 
   }
 
   .social-links a {
     font-size: 24px;
-    margin: 0 10px; /* Adjust margin to add space between icons */
+    margin: 0 10px; 
     color: white;
   }
 
@@ -63,4 +63,10 @@
     color: white;
     margin-right: 20px;
     font-family: 'Bungee', sans-serif;
+  }
+  .feature-container {
+    background-image: url('assets/images/Web_Image_1 1.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 0;
   }
