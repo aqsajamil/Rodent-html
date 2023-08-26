@@ -79,10 +79,13 @@
     border-radius: 5px;
     
   }
-  .inner-container h4{
+  .inner-container h4 ,.section-4 h2{
     font-family: 'Bungee', sans-serif;
   }
-
+.section-4 span{
+  font-size: 45px;
+  color: red;
+}
   @media (max-width: 767px) {
     .full-image-container {
       height: auto;
