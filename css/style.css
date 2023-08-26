@@ -27,13 +27,13 @@
   
   }
   /* Custom styles for buttons */
-  .btn-danger.bg-red {
+ button.bg-red {
     background-color: red;
     color: white;
     font-family: 'Bungee', sans-serif;
   }
 
-  .btn-secondary.bg-white.text-red {
+  .btn-secondary.bg-white.text-red{
     background-color: white;
     color: red;
     font-family: 'Bungee', sans-serif;
@@ -79,7 +79,11 @@
     border-radius: 5px;
     
   }
-  .inner-container h4 ,.section-4 h2{
+  .section-5 p, .section-5 h3{
+    width: 95%;
+    color: red;
+  }
+  .inner-container h4 ,.section-4 h2 , .section-5 h3{
     font-family: 'Bungee', sans-serif;
   }
 .section-4 span{
