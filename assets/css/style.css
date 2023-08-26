@@ -16,19 +16,21 @@
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
-    margin-bottom: 0.5rem;
+  
   }
   /* Custom styles for buttons */
-  .btn-primary.bg-red {
+  .btn-danger.bg-red {
     background-color: red;
     color: white;
+    font-family: 'Bungee', sans-serif;
   }
 
   .btn-secondary.bg-white.text-red {
     background-color: white;
     color: red;
+    font-family: 'Bungee', sans-serif;
   }
   .centered-content p{
     font-family: 'Bungee', sans-serif;
-    
+    margin-bottom: 1rem;
   }
