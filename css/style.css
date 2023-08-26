@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 
 .full-image-container {
+  background-image: url('../images/1.png');
+  background-size: cover;
+    background-repeat: no-repeat;
     position: relative;
     overflow: hidden;
     height: 800px; 
@@ -65,8 +68,34 @@
     font-family: 'Bungee', sans-serif;
   }
   .feature-container {
-    background-image: url('assets/images/Web_Image_1 1.png'); 
+    background-image:url('../images/2.jpeg'); 
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 50px 0;
+    
+  }
+  .inner-container {
+    color: white; 
+    padding: 20px;
+    border-radius: 5px;
+  }
+
+  @media (max-width: 767px) {
+    .full-image-container {
+      height: auto;
+    }
+
+    .centered-content {
+      position: static;
+      transform: none;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .social-links {
+      margin-top: 20px;
+    }
+
+    .feature-container {
+      background-size: auto;
+    }
   }
