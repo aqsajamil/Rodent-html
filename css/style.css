@@ -58,7 +58,7 @@
   .social-links a i {
     color: white;
   }
-  .navbar {
+  .container-nav , .section-6{
     background-color: black;
   }
 
@@ -80,15 +80,34 @@
     
   }
   .section-5 p, .section-5 h3{
-    width: 95%;
+    
     color: red;
   }
-  .inner-container h4 ,.section-4 h2 , .section-5 h3{
+  .inner-container h4 ,.section-4 h1 , .section-5 h3{
     font-family: 'Bungee', sans-serif;
   }
+  .section-4 {
+    background-color: rgb(236, 235, 235);
+  }
 .section-4 span{
-  font-size: 45px;
+  font-size: 60px;
   color: red;
+}
+.section-6 p, button, h3{
+  color: white;
+}
+.section-6 h3{
+  font-family: 'Bungee', sans-serif;
+}
+.btn-dark{
+  background-color: black;
+  font-family: 'Bungee', sans-serif;
+}
+.section-6 .image-adjust{
+background-image: url('../images/summer\ and\ winter\ 1.png');
+background-size: cover;
+background-repeat: no-repeat;
+
 }
   @media (max-width: 767px) {
     .full-image-container {
@@ -109,4 +128,5 @@
     .feature-container {
       background-size: cover;
     }
+    
   }
