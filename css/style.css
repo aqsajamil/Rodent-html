@@ -55,9 +55,7 @@
     color: white;
   }
 
-  .social-links a i {
-    color: white;
-  }
+
   .container-nav , .section-6{
     background-color: black;
   }
@@ -66,6 +64,7 @@
     color: white;
     margin-right: 20px;
     font-family: 'Bungee', sans-serif;
+    font-size: x-large;
   }
   .feature-container {
     background-image:url('../images/2.jpeg'); 
@@ -75,7 +74,7 @@
   }
   .inner-container {
     color: white; 
-    padding: 20px;
+    padding: 30px;
     border-radius: 5px;
     
   }
@@ -89,8 +88,9 @@
   .section-4 {
     background-color: rgb(236, 235, 235);
   }
+
 .section-4 span{
-  font-size: 60px;
+ 
   color: red;
 }
 .section-6 p, button, h3{
